@@ -1,21 +1,93 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8" />
-		<link rel="icon" type="image/svg+xml" href="favicon.svg" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Begginer Tailwind Site</title>
-	</head>
-	<body>
-		<!-- header/navigation ================================================= -->
-		<!-- hero section ====================================================== -->
-		<!-- overview ========================================================== -->
-		<!-- about me ========================================================== -->
-		<!-- what you'll learn ================================================= -->
-		<!-- what we'll build ================================================== -->
-		<!-- pricing =========================================================== -->
-		<!-- faq =============================================================== -->
-		<!-- footer/newsletter ================================================= -->
-		<script type="module" src="/main.js"></script>
-	</body>
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Begginer Tailwind Site</title>
+  </head>
+  <body>
+    <!-- header/navigation ================================================= -->
+    <header class="text-gray-600">
+      <div class="container justify-between px-6 py-6 mx-auto lg:flex lg:px-0">
+        <div class="flex items-center space-x-4">
+          <a href="#" class="text-2xl font-bold text-teal-800"
+            >Beginner Tailwind</a
+          >
+          <a href="#" class="hidden hover:text-gray-900 md:inline-block"
+            >About</a
+          >
+          <a href="#" class="hidden hover:text-gray-900 md:inline-block"
+            >What you'll learn</a
+          >
+          <a href="#" class="hidden hover:text-gray-900 md:inline-block"
+            >Pricing</a
+          >
+          <a href="#" class="hidden hover:text-gray-900 md:inline-block">FAQ</a>
+        </div>
+        <div class="flex items-center space-x-4">
+          <a href="#" class="hover:text-gray-900">Login</a>
+          <a
+            href="#"
+            class="hidden inline-block p-3 text-purple-700 transition duration-500 bg-purple-300 rounded  md:inline-block hover:text-purple-100 hover:bg-purple-400 hover:shadow-xl"
+            >Get the course</a
+          >
+        </div>
+      </div>
+    </header>
+    <!-- hero section ====================================================== -->
+    <section class="container px-6 py-24 mx-auto text-center lg:px-0">
+      <header>
+        <h1 class="h-full mb-8 text-6xl font-extrabold">
+          <span
+            class="text-transparent  bg-gradient-to-r bg-clip-text from-teal-400 to-teal-500 via-purple-600"
+            >Beginner</span
+          >
+          <span
+            class="text-transparent  bg-gradient-to-r bg-clip-text from-teal-500 to-purple-500"
+            >Tailwind</span
+          >
+        </h1>
+        <p class="mb-8 text-2xl text-gray-700">
+          Make good looking design quicly. All without a single line of custom
+          CSS
+        </p>
+        <a
+          href="#"
+          class="inline-block px-12 py-3 mb-32 font-bold tracking-wide text-purple-100 transition duration-500 rounded shadow-lg  bg-gradient-to-br from-purple-500 to-purple-700 hover:to-purple-600 hover:shadow-2xl hover:text-white"
+          >Get the course</a
+        >
+
+        <div class="relative">
+          <img
+            src="https://i.imgur.com/wysbBMS.png"
+            alt="Teaser image"
+            class="border-4 border-purple-400 rounded-lg shadow-2xl"
+          />
+
+          <div
+            class="absolute px-8 py-4 text-left text-yellow-800 border-t-4 border-yellow-400 rounded shadow-lg  bg-yellow-50 -right-5 -top-5"
+          >
+            <p>
+              <span>
+                <strong class="font-bold"
+                  >We'll create BeginnerTailwind.com</strong
+                ></span
+              >
+              <span class="opacity-50"> (it's the site you're on now)</span>
+            </p>
+            <p>We'll do that without a single line of custom CSS!</p>
+          </div>
+        </div>
+      </header>
+    </section>
+    <!-- overview ========================================================== -->
+    <!-- about me ========================================================== -->
+    <!-- what you'll learn ================================================= -->
+    <!-- what we'll build ================================================== -->
+    <!-- pricing =========================================================== -->
+    <!-- faq =============================================================== -->
+    <!-- footer/newsletter ================================================= -->
+    <script type="module" src="/main.js"></script>
+  </body>
 </html>
